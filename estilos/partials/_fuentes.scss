@@ -1,0 +1,49 @@
+header>h1 {
+    font-family:'Times New Roman', Times, serif;
+}
+footer {
+    border-top: #bbb 2px solid;
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+.descripciones{
+    font-size: 1rem;
+    font-style: italic;
+    color:black;
+}
+.descripcionesS{
+    font-size: 1rem;
+    font-style: italic;
+    color:grey;
+    margin-left: 20px;
+}
+.infoNosotros {
+    color: blue;
+}
+.productos {
+    font-style: italic;
+    font-size:  1.125rem;
+
+}
+.negrita {
+    font-weight: bold;
+}
+#titulosH1 {
+    letter-spacing: 0.313rem;
+    text-transform: uppercase;
+    display: inline;
+}
+.historia {
+    font-size: 22px;
+}
+.historiaDiv {
+    border: black 2px solid;
+    border-radius: 15px;
+    background-color: #e8e4a9;
+}
+ol {
+    list-style: disc;
+}
+.BotonesIndex {
+   box-shadow:  2px 2px 10px black;
+}

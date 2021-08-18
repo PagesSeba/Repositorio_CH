@@ -1,0 +1,161 @@
+.padre {
+    height: auto;
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19%;
+    grid-template-areas: "primero segundo tercero cuarto";
+}
+.hijo1 {
+    height: 23.75rem;
+    margin-top: 4rem;
+    padding:1.25rem;
+    width: 18.75rem;
+    background-color: #DCE2BD;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+    grid-area: primero;
+}
+.hijo2 {
+    height: 23.75rem;
+    margin-top: 4rem;
+    padding:1.25rem;
+    width: 18.75rem;
+    background-color: #DCE2BD;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+    grid-area: segundo;
+}
+.hijo3 {
+    height: 23.75rem;
+    margin-top: 4rem;
+    padding:1.25rem;
+    width: 18.75rem;
+    background-color: #DCE2BD;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+    grid-area: tercero;
+}
+.hijo4 {
+    height: 23.75rem;
+    margin-top:4rem;
+    padding:1.25rem;
+    width: 18.75rem;
+    background-color: #DCE2BD;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+    grid-area: cuarto;
+}
+.hijo5 {
+    height: 380px;
+    margin-top: 4rem;
+    padding:1.25rem;
+    width: 300px;
+    background-color: #DCE2BD;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+    grid-area: quinto;
+}
+#grillaIndex {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: max-content;
+    grid-template-areas: "header" "div1" "main" "div2" "footer";
+}
+#headerIndex {
+    grid-area: header;
+}
+#mainIndex {
+    grid-area: main;
+}
+#footerIndex {
+    grid-area: footer;
+}
+#divisor1 {
+    grid-area: div1;
+}
+#divisor2 {
+    grid-area: div2;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "map horarios redesMail" "map newsletter redesMail";
+}
+.newsletter {
+    grid-area: newsletter;
+    border:black 1px solid;
+    border-radius: 20px;
+    height: 300px;
+    width: 320px;
+    justify-self: center;
+    align-self: center;
+    background-color: white;
+    overflow: hidden;
+}
+.botonesNews {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.horarios {
+    grid-area: horarios;
+}
+.padreRedes {
+    grid-area: redesMail;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.grillaNosotros {
+display: grid;
+grid-template-columns: 70% 30%;
+grid-template-rows: fit-content;
+grid-template-areas: "fotos videos";
+}
+.areavid {
+    grid-area: videos;
+}
+.areafotos {
+    grid-area: fotos;
+}
+.grillaOfertas1 {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: fit-content;
+    grid-template-areas: "Como Tipos";
+}
+.areaComo {
+    grid-area: Como;
+    justify-items: center;
+}
+.areaTipos {
+    grid-area: Tipos;
+    justify-items: center;
+}
+.grillaOfertas2 {
+    display: grid;
+    grid-template-columns: 27% 27% 27%;
+    grid-template-rows: fit-content;
+    grid-template-areas: "pack1 pack2 pack3" "ind1 ind2 ind3";
+    justify-content: space-around;
+}
+.p1 {
+    grid-area: pack1;
+}
+.p2 {
+    grid-area: pack2;
+}
+.p3 {
+    grid-area: pack3;
+}
+.i1 {
+    grid-area: ind1;
+}
+.i2 {
+    grid-area: ind2;
+}
+.i3 {
+    grid-area: ind3;
+}

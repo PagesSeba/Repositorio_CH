@@ -1,0 +1,183 @@
+nav {
+    width:100%;
+        height: fit-content;
+        overflow: hidden;
+        margin-top: 10px;
+    }
+form {
+    padding: 0.313rem;
+        border-width: 0rem;
+    }
+footer>iframe {
+        width: 350px;
+        height: 350px;
+    }
+header img {
+        width: 140px;
+        height: 140px;
+        margin: 10px;
+        padding: 5px;
+        border: 1px black solid;
+        border-radius: 20px;
+    }
+header div input {
+        margin-top: 10px;
+        width: 180px;
+        height: 30px;
+    }
+main {
+        border-top: #bbb 2px solid;
+        margin-top: 16px;
+    }
+form fieldset div {
+        margin: 15px 0px 5px;
+    }
+ul {
+        list-style: none;
+        font-size: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        li {
+            display: inline-block;
+            position: relative;
+            width: fit-content;
+            font-size: 20px;
+        
+        }
+    }
+.imgsIndex {
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+        transition: heigth 2s, width 2s;
+    }
+.redes {
+        width: 50px;
+        height:50px;
+        margin:2px;
+        transition: all 2s;
+        color: #fff;
+    }
+footer div a img:hover {
+        width: 80px;
+        height: 80px;
+    }
+.imageneslocal {
+        width: 400px;
+        height: 400px;;
+        box-shadow: 5px 2px 20px black;
+        border-radius: 2px;
+    }
+.logoFooter {
+        margin-top: 20px;
+        width:70px;
+        height: 70px;
+    }
+.search {
+        margin: 15px 0px 5px 0px;
+        padding: 5px;
+        border: black 1.5px solid;
+        transform: translateX()
+    } 
+.botonesNews {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+.redes {
+        width: 50px;
+        height: auto;
+        text-align: center;
+        border-radius: 15px;
+        margin-right: 20px;
+    }
+    .NovedadesIndex {
+        height: 250px;
+        width: 250px;
+        
+    }
+.borderRadius {
+    border-radius: 15px;
+}
+.OfertasCards {
+    height: 250px;
+    width: 550px;
+    box-shadow: 5px 5px 10px black;
+}
+.ImgsOfertas {
+    width: 200px;
+    height: 200px;
+}
+.botonOfertas1 {
+    background-color: #3EB595;
+    border-color: #3EB595;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+.botonOfertas2 {
+    background-color: #3EB595;
+    border-color: #3EB595;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+.botonOfertas3 {
+    background-color: #3EB595;
+    border-color: #3EB595;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+.botonOfertas4 {
+    background-color: #3EB595;
+    border-color: #3EB595;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+.botonOfertas5 {
+    background-color: #3EB595;
+    border-color: #3EB595;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+.botonOfertas6 {
+    background-color: #3EB595;
+    border-color: #3EB595;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+.imgOfertaAd {
+    width: 400px;
+    height: 250px;
+}
+.margint {
+    margin-top: 100px;
+}
+strong {
+    font-size: 1.25rem;
+}
+footer em {
+    font-size: 1.5rem;
+    display: block;
+}
+footer div.padreRedes em {
+    font-size: 1rem;
+}
+.marginNov {
+    margin-top: 4.375rem;
+}
+.borde1px {
+    border: black 1px solid;
+}

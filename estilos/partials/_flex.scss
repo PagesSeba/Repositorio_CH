@@ -1,0 +1,49 @@
+.centrar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footerMap {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    width: fit-content;
+    grid-area: map;
+}
+.footerLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: flex-end;
+
+}
+.footerRedes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    font-size: 2rem;
+}
+.botonesMain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: auto;
+    width: 100%;
+}
+.InfoProductos {
+    display: flex;
+    flex-direction: column;
+}
+.botonesNews {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
