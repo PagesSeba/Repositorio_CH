@@ -20,7 +20,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#"><img src="./FOTOSYVIDEOS/logoCapi.jpg" alt="logocapi" >
             </a>   <!--Logo-->
-              <div class="container-fluid"> <!--Menú-->
+              <div class="container-fluid hambur"> <!--Menú-->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -48,39 +48,93 @@
   </header> <!--Fin Header-->
     <main> <!--Main-->
         <h1 class="centrar mt-2 mb-2">CATEGORIAS</h1>
-        <section>
-        <div class="mt-2 interior container-fluid"> <!--Nav Interior-->
-            <ul class="interior__ul row">
-                <li class="interior__li col-6 col-sm-3 col-md-3"><a href=""> Seccion 1</a></li>
-                <li class="interior__li col-6 col-sm-3 col-md-3"><a href=""> Seccion 2</a></li>
-                <li class="interior__li col-6 col-sm-3 col-md-3"><a href=""> Seccion 3</a></li>
-                <li class="interior__li col-6 col-sm-3 col-md-3"><a href=""> Seccion 4</a></li>
-            </ul>
-        </div> <!--Fin Nav Interior-->
-        </section> 
-        <section class="d-flex justify-content-around mt-3 container-fluid"> <!--Categorias-->
-          <div class="row justify-content-around gap-5">
-            <article class="contenedor col-6 col-xl-3"> <p> Piscina</p> <!--Categoria 1-->
-                <div class="contenedor__img"><img src="./FOTOSYVIDEOS/PastillasCloro.jpg" alt="" class="contenedor__img borderRadius"></div>
-                <div class="contenedor__hijo mt-2 text-center">8 Productos</div>
-                <button class="contenedor__boton--activo"> Ver Productos</button>
-            </article>
-            <article class="contenedor col-6 col-xl-3"> <p> Aromas</p> <!--Categoria 2-->
-                <div class="contenedor__img"><img src="./FOTOSYVIDEOS/Saphirus.jpg" alt="" class="contenedor__img borderRadius"></div>
-                <div class="contenedor__hijo mt-2 text-center">50 Productos </div>
-                <button class="contenedor__boton--activo">Ver Productos</button>
-            </article>
-            <article class="contenedor col-6 col-xl-3"> <p> Mascotas</p> <!--Categoria 3-->
-                <div class="contenedor__img"><img src="./FOTOSYVIDEOS/Whiskas.jpg" alt="" class="contenedor__img borderRadius"></div>
-                <div class="contenedor__hijo mt-2 text-center">42 Productos </div>
-                <button class="contenedor__boton--activo">Ver Productos</button>
-            </article>
-            <article class="contenedor col-6 col-xl-3"> <p> Ropa</p> <!--Categoria 4-->
-                <div class="contenedor__img"><img src="./FOTOSYVIDEOS/Ariel.jpg" alt="" class="contenedor__img borderRadius"></div>
-                <div class="contenedor__hijo mt-2 text-center">25 Productos</div>
-                <button class="contenedor__boton--activo mt-2">Ver Productos</button>
-            </article>
-        </section> <!--Fin Categorias-->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <section class="d-flex justify-content-around mt-3 container-fluid"> <!--Categorias 1-->
+                <div class="row justify-content-around gap-5">
+                  <article class="contenedor col-6 col-xl-3"> <p> Piscina</p> <!--Categoria 1-->
+                      <div class="contenedor__img"><img src="./FOTOSYVIDEOS/PastillasCloro.jpg" alt="" class="contenedor__img borderRadius"></div>
+                      <div class="contenedor__hijo mt-2 text-center">8 Productos</div>
+                      <button class="contenedor__boton--activo"> Ver Productos</button>
+                  </article>
+                  <article class="contenedor col-6 col-xl-3"> <p> Aromas</p> <!--Categoria 2-->
+                      <div class="contenedor__img"><img src="./FOTOSYVIDEOS/Saphirus.jpg" alt="" class="contenedor__img borderRadius"></div>
+                      <div class="contenedor__hijo mt-2 text-center">50 Productos </div>
+                      <button class="contenedor__boton--activo">Ver Productos</button>
+                  </article>
+                  <article class="contenedor col-6 col-xl-3"> <p>Forrajeria</p> <!--Categoria 3-->
+                      <div class="contenedor__img"><img src="./FOTOSYVIDEOS/Whiskas.jpg" alt="" class="contenedor__img borderRadius"></div>
+                      <div class="contenedor__hijo mt-2 text-center">42 Productos </div>
+                      <button class="contenedor__boton--activo">Ver Productos</button>
+                  </article>
+                  <article class="contenedor col-6 col-xl-3"> <p> Ropa</p> <!--Categoria 4-->
+                      <div class="contenedor__img"><img src="./FOTOSYVIDEOS/Ariel.jpg" alt="" class="contenedor__img borderRadius"></div>
+                      <div class="contenedor__hijo mt-2 text-center">25 Productos</div>
+                      <button class="contenedor__boton--activo mt-2">Ver Productos</button>
+                  </article>
+              </section> <!--Fin Categorias 1-->
+            </div>
+            <div class="carousel-item">
+              <section class="d-flex justify-content-around mt-3 container-fluid"> <!--Categorias 2-->
+                <div class="row justify-content-around gap-5">
+                  <article class="contenedor col-6 col-xl-3"> <p>Desinfección</p> <!--Categoria 5-->
+                      <div class="contenedor__img"><img src="./FOTOSYVIDEOS/AyudinTripleAccion.jpg" alt="" class="contenedor__img borderRadius"></div>
+                      <div class="contenedor__hijo mt-2 text-center">8 Productos</div>
+                      <button class="contenedor__boton--activo"> Ver Productos</button>
+                  </article>
+                  <article class="contenedor col-6 col-xl-3"> <p> Vajillas</p> <!--Categoria 6-->
+                      <div class="contenedor__img"><img src="./FOTOSYVIDEOS/Magistral.jpg" alt="" class="contenedor__img borderRadius"></div>
+                      <div class="contenedor__hijo mt-2 text-center">50 Productos </div>
+                      <button class="contenedor__boton--activo">Ver Productos</button>
+                  </article>
+                  <article class="contenedor col-6 col-xl-3"> <p>Higiene Personal</p> <!--Categoria 7-->
+                      <div class="contenedor__img"><img src="./FOTOSYVIDEOS/HeadAndShoulders.jpg" alt="" class="contenedor__img borderRadius"></div>
+                      <div class="contenedor__hijo mt-2 text-center">42 Productos </div>
+                      <button class="contenedor__boton--activo">Ver Productos</button>
+                  </article>
+                  <article class="contenedor col-6 col-xl-3"> <p>Pisos</p> <!--Categoria 8-->
+                      <div class="contenedor__img"><img src="./FOTOSYVIDEOS/PerfuminaPoett.jpg" alt="" class="contenedor__img borderRadius"></div>
+                      <div class="contenedor__hijo mt-2 text-center">10 Productos</div>
+                      <button class="contenedor__boton--activo mt-2">Ver Productos</button>
+                  </article>
+              </section> <!--Fin Categorias-->
+            </div>
+            <div class="carousel-item">
+              <section class="d-flex justify-content-around mt-3 container-fluid"> <!--Categorias 3-->
+                <div class="row justify-content-around gap-5">
+                  <article class="contenedor col-6 col-xl-3"> <p>Bazar</p> <!--Categoria 9-->
+                      <div class="contenedor__img"><img src="./FOTOSYVIDEOS/TermoStanley.jpg" alt="" class="contenedor__img borderRadius"></div>
+                      <div class="contenedor__hijo mt-2 text-center">8 Productos</div>
+                      <button class="contenedor__boton--activo"> Ver Productos</button>
+                  </article>
+                  <article class="contenedor col-6 col-xl-3"> <p>Textiles</p> <!--Categoria 10-->
+                      <div class="contenedor__img"><img src="./FOTOSYVIDEOS/repasador.jpg" alt="" class="contenedor__img borderRadius"></div>
+                      <div class="contenedor__hijo mt-2 text-center">50 Productos </div>
+                      <button class="contenedor__boton--activo">Ver Productos</button>
+                  </article>
+                  <article class="contenedor col-6 col-xl-3"> <p>Baterias</p> <!--Categoria 11-->
+                      <div class="contenedor__img"><img src="./FOTOSYVIDEOS/EnergizerPilaAA.jpg" alt="" class="contenedor__img borderRadius"></div>
+                      <div class="contenedor__hijo mt-2 text-center">42 Productos </div>
+                      <button class="contenedor__boton--activo">Ver Productos</button>
+                  </article>
+                  <article class="contenedor col-6 col-xl-3"> <p>Covid</p> <!--Categoria 12-->
+                      <div class="contenedor__img"><img src="./FOTOSYVIDEOS/Jarbibo.jpg" alt="" class="contenedor__img borderRadius"></div>
+                      <div class="contenedor__hijo mt-2 text-center">25 Productos</div>
+                      <button class="contenedor__boton--activo mt-2">Ver Productos</button>
+                  </article>
+              </section> <!--Fin Categorias 3-->
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
         <h2 class="centrar mt-4 mb-4">Entregas</h2> <!--Entregas-->
         <section class="d-flex justify-content-around mt-2 container-fluid">
           <div class="row gap-5 justify-content-center">
@@ -88,11 +142,11 @@
                 <div class="contenedor4__img"><img src="./FOTOSYVIDEOS/CompraLocal.jpg" alt="" class="contenedor4__img borderRadius"></div>
                 <div class="contenedor4__hijo mt-2">Veni a nuestro negocio! podes encontrar la ubicación en el footer! </div>
             </article>
-            <article class="contenedor4 col-12 col-md-4 col-xl-4"> <p> Entrega de nuestra parte</p> <!--Método 2-->
+            <article class="contenedor4 col-12 col-md-4 col-xl-4"> <p>Delivery</p> <!--Método 2-->
               <div class="contenedor4__img"><img src="./FOTOSYVIDEOS/EntregaLocal.jpg" alt="" class="contenedor4__img borderRadius"></div>
               <div class="contenedor4__hijo mt-2">Entregamos de 12 a 18hs en toda la ciudad de Córdoba! </div>
           </article>
-          <article class="contenedor4 col-12 col-md-4 col-xl-4"> <p> Entrega por fuera</p> <!--Método 3-->
+          <article class="contenedor4 col-12 col-md-4 col-xl-4"> <p> Entrega por Mensajeria</p> <!--Método 3-->
             <div class="contenedor4__img"><img src="./FOTOSYVIDEOS/EntregaEmpresa.jpg" alt="" class="contenedor4__img borderRadius"></div>
             <div class="contenedor4__hijo">¿Estas fuera de horario? no te preocupes! te lo mandamos por otro medio! </div>
         </article>

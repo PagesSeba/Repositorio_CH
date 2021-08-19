@@ -8,6 +8,20 @@
     width: 70px;
     height: 70px;
 }
+nav {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+}
+.navbar-brand {
+     margin-right: 0rem;
+}
+.hambur {
+    justify-content: center !important;
+}
 .carousel-caption {
     position: absolute;
     right: 15%;
