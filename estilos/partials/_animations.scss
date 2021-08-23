@@ -35,8 +35,9 @@ section div div div button {
     transition: 3s;
 }
 section div div div button:hover {
-    width: 170px;
-    height: 55px;
+ color: #000;
+ background-color: #F2F2F2;
+ border: #F2F2F2;
 }
 /*Productos*/
 .contenedor__boton--activo {

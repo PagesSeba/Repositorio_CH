@@ -48,6 +48,12 @@ nav {
         height: 200px;
     }
 }
+footer iframe {
+    width: 320px;
+}
+footer div.footerMap em {
+    font-size: 14px;
+}
 }
 @media only screen and (min-width:320px) and (max-width: 768px) {
     #grillaIndex {

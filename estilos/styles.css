@@ -361,6 +361,10 @@ ol {
           box-shadow: 2px 2px 10px black;
 }
 
+.fuenteContacto {
+  font-family: 'Raleway';
+}
+
 .centrar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -987,6 +991,12 @@ ol {
   .contenedor4__img {
     width: 280px;
     height: 200px;
+  }
+  footer iframe {
+    width: 320px;
+  }
+  footer div.footerMap em {
+    font-size: 14px;
   }
 }
 
@@ -1653,8 +1663,9 @@ section div div div button {
 }
 
 section div div div button:hover {
-  width: 170px;
-  height: 55px;
+  color: #000;
+  background-color: #F2F2F2;
+  border: #F2F2F2;
 }
 
 /*Productos*/
