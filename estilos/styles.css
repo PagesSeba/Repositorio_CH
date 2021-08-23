@@ -749,6 +749,179 @@ ol {
   grid-area: ind3;
 }
 
+.interior {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border: 1px black solid;
+  background-color: gold;
+}
+
+.interior__ul {
+  list-style: none;
+  text-align: center;
+}
+
+.interior__li {
+  font-size: large;
+}
+
+.contenedor {
+  width: 18.75rem;
+  height: auto;
+  background-color: #E4EDED;
+  border: 3px solid lightgrey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 15px;
+}
+
+.contenedor__img {
+  height: 250px;
+}
+
+.contenedor__hijo {
+  width: 250px;
+  height: 50px;
+}
+
+.contenedor__boton--activo {
+  width: 150px;
+  height: 50px;
+  background-color: #008CBA;
+  color: #fff;
+  border: #008CBA;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 10px;
+}
+
+.contenedor2 {
+  height: 18.75rem;
+  background-color: #F2F2F2;
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 20px;
+}
+
+.contenedor2__img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.contenedor2__hijo {
+  font-size: medium;
+  font-style: italic;
+}
+
+.contenedor2__boton {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.contenedor3 {
+  width: 40vw;
+  height: 300px;
+  background-color: #F2F2F2;
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 20px;
+}
+
+.contenedor3__img {
+  width: 200px;
+  height: 200px;
+}
+
+.contenedor3__hijo {
+  font-size: large;
+  font-style: italic;
+}
+
+.contenedor4 {
+  width: 450px;
+  height: 400px;
+  background-color: #F2F2F2;
+  border: 3px solid #dad5d2;
+  border-radius: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+}
+
+.contenedor4__img {
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.contenedor4__hijo {
+  width: 250px;
+  height: 50px;
+}
+
+/* Saas clase 12*/
+/*Map*/
+/*footer redes*/
+.btn--instagram {
+  background-color: #DD2A7B;
+}
+
+.btn--facebook {
+  background-color: #0d6efd;
+}
+
+.btn--whatsapp {
+  background-color: #25D366;
+}
+
+/*Operaciones*/
+/*seccion ofertas*/
+.CajaColor1 {
+  background-color: #e8e4a9;
+  width: 500px;
+  height: 250px;
+  text-align: center;
+}
+
+.CajaColor2 {
+  background-color: #e3db6f;
+  width: 900px;
+  height: 250px;
+  text-align: center;
+}
+
+/*Condicionales*/
+.tipoProducto {
+  background-color: #F2F2F2;
+  color: #000;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 575px) {
   .OfertasCards {
     height: 300px;
@@ -796,6 +969,24 @@ ol {
     color: #fff;
     text-align: center;
     font-size: 12px;
+  }
+  .padreRedes {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footerLogo {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedor4 {
+    width: 300px;
+    height: 350px;
+  }
+  .contenedor4__img {
+    width: 280px;
+    height: 200px;
   }
 }
 
@@ -991,6 +1182,16 @@ ol {
   .imageneslocal {
     width: 320px;
     height: 300px;
+  }
+  .padreRedes {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footerLogo {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -1555,178 +1756,4 @@ section div div div button:hover {
   color: #000;
   width: 170px;
   height: 45px;
-}
-
-.interior {
-  width: 100%;
-  height: auto;
-  background-color: white;
-  border: 1px black solid;
-  background-color: gold;
-}
-
-.interior__ul {
-  list-style: none;
-  text-align: center;
-}
-
-.interior__li {
-  font-size: large;
-}
-
-.contenedor {
-  width: 18.75rem;
-  height: auto;
-  background-color: #E4EDED;
-  border: 3px solid lightgrey;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  border-radius: 15px;
-}
-
-.contenedor__img {
-  height: 250px;
-}
-
-.contenedor__hijo {
-  width: 250px;
-  height: 50px;
-}
-
-.contenedor__boton--activo {
-  width: 150px;
-  height: 50px;
-  background-color: #008CBA;
-  color: #fff;
-  border: #008CBA;
-  margin-top: 10px;
-  font-family: 'Raleway', sans-serif;
-  border-radius: 10px;
-}
-
-.contenedor2 {
-  /* width: 43.75rem;*/
-  height: 18.75rem;
-  background-color: #F2F2F2;
-  text-align: center;
-  border: 2px solid grey;
-  border-radius: 20px;
-}
-
-.contenedor2__img {
-  width: 300px;
-  border-radius: 15px;
-}
-
-.contenedor2__hijo {
-  font-size: medium;
-  font-style: italic;
-}
-
-.contenedor2__boton {
-  background-color: #4CAF50;
-  border-color: #4CAF50;
-  color: #fff;
-  width: 150px;
-  height: 40px;
-  border-radius: 10px;
-}
-
-.contenedor3 {
-  width: 40vw;
-  height: 300px;
-  background-color: #F2F2F2;
-  text-align: center;
-  border: 2px solid grey;
-  border-radius: 20px;
-}
-
-.contenedor3__img {
-  width: 200px;
-  height: 200px;
-}
-
-.contenedor3__hijo {
-  font-size: large;
-  font-style: italic;
-}
-
-.contenedor4 {
-  width: 450px;
-  height: 400px;
-  background-color: #F2F2F2;
-  border: 3px solid #dad5d2;
-  border-radius: 9px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-weight: bold;
-}
-
-.contenedor4__img {
-  width: 350px;
-  height: 250px;
-  border-radius: 10px;
-}
-
-.contenedor4__hijo {
-  width: 250px;
-  height: 50px;
-}
-
-/* Saas clase 12*/
-/*Map*/
-/*footer redes*/
-.btn--instagram {
-  background-color: #DD2A7B;
-}
-
-.btn--facebook {
-  background-color: #0d6efd;
-}
-
-.btn--whatsapp {
-  background-color: #25D366;
-}
-
-/*Operaciones*/
-/*seccion ofertas*/
-.CajaColor1 {
-  background-color: #e8e4a9;
-  width: 500px;
-  height: 250px;
-  text-align: center;
-}
-
-.CajaColor2 {
-  background-color: #e3db6f;
-  width: 900px;
-  height: 250px;
-  text-align: center;
-}
-
-/*Condicionales*/
-.tipoProducto {
-  background-color: #F2F2F2;
-  color: #000;
 }
