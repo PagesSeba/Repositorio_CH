@@ -348,9 +348,8 @@ footer {
 }
 
 .historiaDiv {
-  border: black 2px solid;
   border-radius: 15px;
-  background-color: #e8e4a9;
+  background-color: lightgoldenrodyellow;
 }
 
 ol {
