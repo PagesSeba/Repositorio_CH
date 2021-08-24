@@ -53,3 +53,10 @@ section article video {
     background-color: #e85d04;
     border-color: #e85d04;
 }
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #cfe1b9;
+}
+.paraForm {
+    background-color: #e9ecef;
+}

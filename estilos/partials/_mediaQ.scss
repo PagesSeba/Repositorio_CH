@@ -187,7 +187,12 @@ footer div.footerMap em {
 .footerLogo {
     align-items: center;
 }
+}
+@media only screen and (min-width: 767px) and (max-width: 789px) {
+.padreRedes {
+    margin-right: 270px;
 } 
+}
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 #grillaIndex {
     grid-template-columns: 100%;

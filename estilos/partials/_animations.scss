@@ -118,3 +118,20 @@ section div div div button:hover {
     width: 170px;
     height: 45px;
 }
+/*Contacto*/
+.btnContactoS {
+    transition: all 1s;
+}
+.btnContactoD {
+    transition: all 1s;
+}
+.btnContactoS:hover {
+    color: #000;
+    background-color:#F2F2F2 ;
+    border-color:#F2F2F2 ;
+}
+.btnContactoD:hover {
+    color: #000;
+    background-color:#D94C1A ;
+    border-color:#D94C1A ;
+}
