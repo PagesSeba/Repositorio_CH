@@ -94,11 +94,12 @@ footer > iframe {
 }
 
 header img {
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
   margin: 10px;
-  padding: 5px;
-  border: 1px black solid;
+  padding: 0px;
+  -webkit-box-shadow: 1px 1px 5px grey;
+          box-shadow: 1px 1px 5px grey;
   border-radius: 20px;
 }
 
@@ -363,6 +364,8 @@ footer {
 .historiaDiv {
   border-radius: 15px;
   background-color: #b7e4c7;
+  -webkit-box-shadow: 1px 1px 7px grey;
+          box-shadow: 1px 1px 7px grey;
 }
 
 ol {
@@ -1823,4 +1826,20 @@ section div div div button:hover {
   color: #000;
   background-color: #D94C1A;
   border-color: #D94C1A;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+  text-decoration: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(currentColor), to(currentColor));
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-transition: background-size .3s;
+  transition: background-size .3s;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #000;
+  background-size: 100% 2px;
 }
