@@ -66,12 +66,12 @@ section article video {
 }
 
 .accordion-button:not(.collapsed) {
-  color: #000;
-  background-color: #cfe1b9;
+  color: #fff;
+  background-color: #325e95;
 }
 
 .paraForm {
-  background-color: #e9ecef;
+  background-color: #fff;
 }
 
 nav {
