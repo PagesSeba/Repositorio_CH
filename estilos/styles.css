@@ -80,7 +80,6 @@ nav {
   height: -moz-fit-content;
   height: fit-content;
   overflow: hidden;
-  margin-top: 10px;
 }
 
 form {
@@ -111,7 +110,6 @@ header div input {
 
 main {
   border-top: #bbb 2px solid;
-  margin-top: 16px;
 }
 
 form fieldset div {
