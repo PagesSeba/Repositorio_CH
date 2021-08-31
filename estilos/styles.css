@@ -4,11 +4,11 @@ body {
 }
 
 footer {
-  background-color: #F2F0D5;
+  background-color: #e7e3b1;
 }
 
 nav {
-  background-color: #F2F0D5;
+  background-color: #e7e3b1;
 }
 
 form {
@@ -1840,4 +1840,8 @@ section div div div button:hover {
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
   color: #000;
   background-size: 100% 2px;
+}
+
+* {
+  scroll-behavior: smooth;
 }

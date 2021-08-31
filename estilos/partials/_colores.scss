@@ -1,14 +1,15 @@
 $color-principal: #F2F0D5;
+$color-secundario: #e7e3b1;
 
 body {
     background-color: $color-principal !important; 
     overflow-x: hidden;
 }
 footer {
-    background-color: $color-principal;
+    background-color: $color-secundario;
 }
 nav {
-    background-color:$color-principal;
+    background-color:$color-secundario;
 }
 form {
     background-color: white;
