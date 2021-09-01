@@ -314,6 +314,22 @@ footer div.padreRedes em {
           box-shadow: 1px 1px 15px grey;
 }
 
+.imgError {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  padding: 0px;
+  -webkit-box-shadow: 1px 1px 5px grey;
+          box-shadow: 1px 1px 5px grey;
+  border-radius: 20px;
+}
+
+.positionError {
+  /*1880*/
+  top: 30vh;
+  left: 30vh;
+}
+
 header > h1 {
   font-family: 'Times New Roman', Times, serif;
 }
@@ -1012,6 +1028,10 @@ ol {
   footer div.footerMap em {
     font-size: 14px;
   }
+  .positionError {
+    top: 10vh;
+    left: 0vh;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
@@ -1435,6 +1455,10 @@ ol {
         -ms-flex-align: center;
             align-items: center;
   }
+  .positionError {
+    top: 30vh;
+    left: 2vh;
+  }
 }
 
 @media only screen and (min-width: 1022px) and (max-width: 1025px) {
@@ -1597,6 +1621,13 @@ ol {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 1430px) and (max-width: 1500px) {
+  .positionError {
+    top: 30vh;
+    left: 5vh;
   }
 }
 

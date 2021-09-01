@@ -182,3 +182,15 @@ footer div.padreRedes em {
 .sombraContacto {
     box-shadow: 1px 1px 15px grey;
 }
+.imgError {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    padding: 0px;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 20px;
+}
+.positionError { /*1880*/
+    top: 30vh;
+    left: 30vh;
+}

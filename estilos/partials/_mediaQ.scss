@@ -54,6 +54,10 @@ footer iframe {
 footer div.footerMap em {
     font-size: 14px;
 }
+.positionError {
+    top: 10vh;
+    left: 0vh;
+}
 }
 @media only screen and (min-width:320px) and (max-width: 768px) {
     #grillaIndex {
@@ -322,6 +326,10 @@ grid-template-areas:
         justify-items: center;
         align-items: center;
         }
+        .positionError {
+            top: 30vh;
+            left: 2vh;
+        }
 }
 @media only screen and (min-width: 1022px) and (max-width: 1025px) {
     .padreRedes {
@@ -415,6 +423,12 @@ grid-template-areas:
     flex-direction: column;
     gap: 40px
     ;
+}
+}
+@media only screen and (min-width: 1430px) and (max-width: 1500px) {
+.positionError {
+    top: 30vh;
+    left: 5vh;
 }
 }
 @media only screen and (min-width: 1401px) and (max-width: 1650px) {
