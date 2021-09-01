@@ -331,6 +331,93 @@ grid-template-areas:
             left: 2vh;
         }
 }
+@media only screen and (min-width: 1024px) and (max-width: 1100px) { 
+    .botonesMain {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .masVendi {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+     align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    nav {
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-around;
+        border:unset;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
+        justify-content: space-evenly;
+    }
+    li {
+        width: fit-content;
+    }
+    .padre {
+       display: grid;
+       grid-template-columns: 50% 50%;
+       grid-template-rows: auto;
+       grid-template-areas: "primero segundo" "tercero cuarto" ;
+   }
+   .hijo1 {
+       justify-self: center;
+   }
+   .hijo2 {
+       justify-self: center;
+   }
+   .hijo3 {
+       justify-self: center;
+   }
+   .hijo4 {
+       justify-self: center;
+   }
+    .principal {
+       background-position: center;
+   }
+    .grillaOfertas2 {
+        display: grid;
+        grid-template-columns: 95%;
+        grid-template-rows: fit-content;
+        grid-template-areas: "pack1" "pack2" "pack3" "ind1" "ind2" "ind3";
+        justify-items: center;
+        column-gap: 35rem;
+    }
+    .grillaOfertas1 {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: fit-content;
+        grid-template-areas: "Tipos";
+        justify-content: center;
+    } 
+    .CajaColor1 {
+        display: none !important;
+    }
+    .grillaNosotros {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: fit-content;
+        grid-template-areas: "fotos" "videos";
+        }
+    .imageneslocal {
+        flex-direction: column;
+        gap: 40px
+        ;
+    }
+}
 @media only screen and (min-width: 1022px) and (max-width: 1025px) {
     .padreRedes {
         align-items: center;
@@ -340,7 +427,7 @@ grid-template-areas:
         align-items: center;
     }
     }
-@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+@media only screen and (min-width: 1100px) and (max-width: 1400px) {
  .botonesMain {
      display: flex;
      flex-direction: row;
