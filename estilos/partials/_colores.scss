@@ -15,7 +15,7 @@ form {
     background-color: white;
 }
 .paraCarrusel {
-    color: black;
+    color: black; /*Letras Carrusel Index*/
 }
 .contacto {
     background-color: white;
@@ -54,7 +54,7 @@ section article video {
     background-color: #e85d04;
     border-color: #e85d04;
 }
-.accordion-button:not(.collapsed) {
+.accordion-button:not(.collapsed) { /*Despligue Acordeón*/
     color: #fff;
     background-color: #325e95;
 }

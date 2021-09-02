@@ -1,3 +1,4 @@
+/*MediaQ*/ /*320px a 575*/
 @media only screen and (min-width:320px) and (max-width: 575px) {
 .OfertasCards {
     height: 300px;
@@ -59,6 +60,7 @@ footer div.footerMap em {
     left: 0vh;
 }
 }
+/*Celulares*/
 @media only screen and (min-width:320px) and (max-width: 768px) {
     #grillaIndex {
     grid-template-columns: 100%;
@@ -192,11 +194,13 @@ footer div.footerMap em {
     align-items: center;
 }
 }
+/*Arreglo footer en 768*/
 @media only screen and (min-width: 767px) and (max-width: 789px) {
 .padreRedes {
     margin-right: 270px;
 } 
 }
+/*Tablet*/
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 #grillaIndex {
     grid-template-columns: 100%;
@@ -331,6 +335,7 @@ grid-template-areas:
             left: 2vh;
         }
 }
+/*Notebook 1*/
 @media only screen and (min-width: 1024px) and (max-width: 1100px) { 
     .botonesMain {
         display: flex;
@@ -418,6 +423,7 @@ grid-template-areas:
         ;
     }
 }
+/*Arreglos footer en 1024*/
 @media only screen and (min-width: 1022px) and (max-width: 1025px) {
     .padreRedes {
         align-items: center;
@@ -427,6 +433,7 @@ grid-template-areas:
         align-items: center;
     }
     }
+/*Notebook 2*/
 @media only screen and (min-width: 1100px) and (max-width: 1400px) {
  .botonesMain {
      display: flex;
